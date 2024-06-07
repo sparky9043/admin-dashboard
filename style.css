@@ -52,6 +52,22 @@ a {
   grid-area: sidebar;
   color: #fff;
   background: #34d399;
+  font-size: 1.3rem;
+}
+
+.sidebar__title {
+  display: grid;
+  margin-left: 1em;
+  grid-template-columns: 2.5rem 1fr;
+}
+
+.sidebar__logo {
+  display: inline-block;
+}
+
+.sidebar__logo--img {
+  width: 100%;
+  filter: brightness(0) invert(1);
 }
 
 .header {
