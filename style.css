@@ -94,7 +94,6 @@ textarea {
 .header {
   grid-area: header;
   background: #fff;
-  border: 2px solid red;
   padding: 1rem 0;
 }
 
@@ -102,7 +101,9 @@ textarea {
   display: grid;
   gap: 2rem;
   margin: 0 auto;
-  grid-template-columns: 5fr repeat(3, 1fr);
+  grid-template-columns: 5fr 2rem 250px;
+  align-content: center;
+  align-items: center;
 }
 
 .header__container input[type="search"] {
@@ -129,6 +130,23 @@ textarea {
   left: .2rem;
 }
 
+.header__container--bell {
+  width: 100%;
+  align-self: center;
+}
+
+.header__container--profile {
+  display: inline;
+  width: 4rem;
+  background: #a3e635;
+  border-radius: 100%;
+}
+
+.profile-name p {
+  display: inline;
+  vertical-align: 1rem;
+  margin-left: 1rem;
+}
 
 
 .header__profile {
