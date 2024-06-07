@@ -107,12 +107,28 @@ textarea {
 
 .header__container input[type="search"] {
   width: 70%;
-  margin-left: 2rem;
+  margin-left: 4rem;
   border: none;
   background: rgb(228, 228, 228);
   border-radius: 100px;
-  padding: .3rem 0 .3rem .8rem;
+  padding: .6rem 0 .6rem 1rem;
 }
+
+.header__search > span {
+  margin-left: 2rem;
+  position: relative;
+}
+
+.header__search > span::before {
+  content: '';
+  position: absolute;
+  background: url('./image/magnify.svg');
+  height: 2rem;
+  width: 2rem;
+  background-size: contain;
+  left: .2rem;
+}
+
 
 
 .header__profile {
