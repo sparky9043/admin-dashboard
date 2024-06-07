@@ -8,10 +8,22 @@
 
 */
 
+/* Web Fonts */
 
+@font-face {
+  font-family: 'robotoregular';
+  src: url('./font/webfontkit-20240607-040255/roboto-regular-webfont.woff2') format('woff2'),
+       url('./font/webfontkit-20240607-040255/roboto-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+/* Basic Resets */
 
 *, *::before, *::after {
   box-sizing: border-box;
+  font-family: 'robotoregular', sans-serif;
 }
 
 body {
