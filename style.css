@@ -50,7 +50,8 @@ a {
 
 .sidebar {
   grid-area: sidebar;
-  background: blue;
+  color: #fff;
+  background: #34d399;
 }
 
 .header {
