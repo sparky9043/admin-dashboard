@@ -75,7 +75,7 @@ textarea {
 }
 
 .sidebar__title {
-  margin-left: 1em;
+  margin: 1rem 2rem;
 }
 
 .sidebar__title > .sidebar__logo {
@@ -196,7 +196,8 @@ textarea {
 .main {
   grid-area: main;
   background: rgb(243, 242, 242);
-  padding: 1rem 1rem 2rem 0;
+  padding: 2rem;
+  gap: 2rem;
 
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -237,15 +238,6 @@ textarea {
   font-weight: 700;
 }
 
-.main-projects__icons {
-  text-align: end;
-}
-
-.main-projects__icons > img {
-  display: inline;
-  max-width: 2rem;
-}
-
 .main-projects__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
@@ -257,4 +249,22 @@ textarea {
   padding: 1rem;
   border-left: 10px solid #f87171;
   border-radius: 10px;
+  position: relative;
+}
+
+.main-projects__icons {
+  display: inline-grid;
+  grid-template-columns: 2rem 2rem 2rem;
+  position: absolute;
+  right: .4rem;
+  bottom: .4rem;
+}
+
+.main-projects__icons > img {
+  display: block;
+  max-width: 2rem;
+}
+
+.main-projects__icons > img:hover {
+  opacity: .7;
 }
