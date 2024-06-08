@@ -258,8 +258,8 @@ textarea {
   display: inline-grid;
   grid-template-columns: 2rem 2rem 2rem;
   position: absolute;
-  right: .4rem;
-  bottom: .4rem;
+  right: .7rem;
+  bottom: .7rem;
 }
 
 .main-projects__icons > img {
