@@ -240,3 +240,16 @@ textarea {
 .main-projects__icons > img {
   max-width: 2rem;
 }
+
+.main-projects__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  gap: 1.5rem;
+}
+
+.main-projects__card {
+  background: #fff;
+  padding: 1rem;
+  border-left: 10px solid #f87171;
+  border-radius: 10px;
+}
