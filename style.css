@@ -252,6 +252,7 @@ textarea {
   border-left: 10px solid #f87171;
   border-radius: 10px;
   position: relative;
+  box-shadow: 2px 2px 10px rgb(205, 205, 205);
 }
 
 .main-projects__card--text {
@@ -289,7 +290,7 @@ textarea {
 
 .main-announcements__announcements {
   background: #fff;
-  padding: 1rem 2.5rem;
+  padding: 2rem 3rem;
   border-radius: 10px;
 
   display: grid;
@@ -313,4 +314,8 @@ textarea {
 
 .main-announcements__announcements p {
   color: rgb(94, 94, 94);
+}
+
+.main-trending__profiles {
+  background: #fff;
 }
