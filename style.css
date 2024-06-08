@@ -256,7 +256,8 @@ textarea {
 
 .main-projects__icons {
   display: inline-grid;
-  grid-template-columns: 2rem 2rem 2rem;
+  grid-template-columns: 2.3rem 2.3rem 2.3rem;
+  gap: 1.4rem;
   position: absolute;
   right: .7rem;
   bottom: .7rem;
@@ -268,5 +269,5 @@ textarea {
 }
 
 .main-projects__icons > img:hover {
-  opacity: .7;
+  opacity: .5;
 }
