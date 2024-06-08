@@ -241,6 +241,8 @@ textarea {
 .main-projects__cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20vw, 1fr));
+  grid-template-rows: repeat(3, 15em);
+  grid-auto-rows: 15em;
   gap: 1.5rem;
 }
 
