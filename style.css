@@ -286,3 +286,31 @@ textarea {
 .main-projects__icons > img:hover {
   opacity: .5;
 }
+
+.main-announcements__announcements {
+  background: #fff;
+  padding: 1rem 2.5rem;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.main-announcements__item1,
+.main-announcements__item2 {
+  border-bottom: 2px solid rgb(224, 224, 224);
+}
+
+.main-announcements__announcements p,
+.main-announcements__announcements h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.main-announcements__announcements h3 {
+  margin: .5rem 0 .5rem 0;
+}
+
+.main-announcements__announcements p {
+  color: rgb(94, 94, 94);
+}
