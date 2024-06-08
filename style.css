@@ -137,15 +137,22 @@ textarea {
 
 .header__container--profile {
   display: inline;
-  width: 4rem;
+  width: 3.5rem;
   background: #a3e635;
   border-radius: 100%;
 }
 
+.profile-name {
+  display: grid;
+  grid-template-columns: 3rem 1fr;
+  align-items: center;
+}
+
 .profile-name p {
   display: inline;
-  vertical-align: 1rem;
   margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 
