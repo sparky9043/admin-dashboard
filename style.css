@@ -196,7 +196,7 @@ textarea {
 .main {
   grid-area: main;
   background: rgb(243, 242, 242);
-  padding: 2rem;
+  padding: 1rem 1rem 2rem 0;
 
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -237,7 +237,12 @@ textarea {
   font-weight: 700;
 }
 
+.main-projects__icons {
+  text-align: end;
+}
+
 .main-projects__icons > img {
+  display: inline;
   max-width: 2rem;
 }
 
