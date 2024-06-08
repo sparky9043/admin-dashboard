@@ -162,6 +162,17 @@ textarea {
   border: 2px solid blue;
 }
 
+.header__profile--img {
+  display: inline-block;
+  max-width: 3rem;
+  background: #a3e635;
+  border-radius: 100%;
+}
+
+.header__profile--img img {
+  width: 100%;
+}
+
 .main {
   grid-area: main;
   background: yellow;
