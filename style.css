@@ -254,6 +254,21 @@ textarea {
   position: relative;
 }
 
+.main-projects__card--text {
+  width: 90%;
+  margin-left: .5rem;
+}
+
+.main-projects__card--text > h3 {
+  margin: .5rem 0 .5rem;
+}
+
+.main-projects__card--text > p {
+  margin: 0;
+  padding: 0;
+  color: rgb(94, 94, 94);
+}
+
 .main-projects__icons {
   display: inline-grid;
   grid-template-columns: 2.3rem 2.3rem 2.3rem;
