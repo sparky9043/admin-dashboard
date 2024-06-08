@@ -197,3 +197,11 @@ textarea {
   grid-area: main;
   background: yellow;
 }
+
+.greeting {
+  font-weight: 700;
+}
+
+.greeting > span {
+  font-size: 1.2rem;
+}
