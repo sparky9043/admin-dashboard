@@ -101,7 +101,7 @@ textarea {
   display: grid;
   gap: 2rem;
   margin: 0 auto;
-  grid-template-columns: 5fr 2rem 250px;
+  grid-template-columns: 5fr 2rem 300px;
   align-content: center;
   align-items: center;
 }
@@ -113,6 +113,10 @@ textarea {
   background: rgb(228, 228, 228);
   border-radius: 100px;
   padding: .6rem 0 .6rem 1rem;
+}
+
+.header__container--image-container {
+  width: 2rem;
 }
 
 .header__search > span {
@@ -162,7 +166,7 @@ textarea {
   padding: 1rem 0;
 
   display: grid;
-  grid-template-columns: 50% 1fr 1fr;
+  grid-template-columns: 10fr 1fr 1fr;
 }
 
 .header__profile--img {
