@@ -205,3 +205,15 @@ textarea {
 .greeting > span {
   font-size: 1.2rem;
 }
+
+.header__profile--item {
+  background: #34d399;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.header__profile--item > a {
+  color: #fff;
+  font-weight: 700;
+}
