@@ -236,3 +236,7 @@ textarea {
   color: #fff;
   font-weight: 700;
 }
+
+.main-projects__icons > img {
+  max-width: 2rem;
+}
