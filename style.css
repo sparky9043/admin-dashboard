@@ -195,7 +195,26 @@ textarea {
 
 .main {
   grid-area: main;
-  background: yellow;
+  background: rgb(243, 242, 242);
+  padding: 2rem;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: 
+    "projects announcements"
+    "projects trending";
+}
+
+.main-projects {
+  grid-area: projects;
+}
+
+.main-announcements {
+  grid-area: announcements;
+}
+
+.main-trending {
+  grid-area: trending;
 }
 
 .greeting {
