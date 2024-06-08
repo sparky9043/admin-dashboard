@@ -159,14 +159,34 @@ textarea {
 .header__profile {
   grid-area: profile;
   background: #fff;
-  border: 2px solid blue;
+  padding: 1rem 0;
+
+  display: grid;
+  grid-template-columns: 50% 1fr 1fr;
 }
 
 .header__profile--img {
   display: inline-block;
-  max-width: 3rem;
   background: #a3e635;
   border-radius: 100%;
+}
+
+.header__profile--title {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 4rem 1fr;
+  align-items: center;
+
+  margin-left: 2rem;
+}
+
+.header__profile--links {
+  display: grid;
+  margin-left: 6rem;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 8rem);
+  justify-content: end;
+  align-items: center;
 }
 
 .header__profile--img img {
